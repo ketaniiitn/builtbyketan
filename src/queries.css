@@ -1,0 +1,567 @@
+/**************************/
+/*BELOW 1344px(Smaller desktops)*/
+/**************************/
+@media (max-width: 84em) {
+  /* General Section Styles */
+  .section-hero,
+  .section-about-me,
+  .section-skills,
+  .section-projects,
+  .section-resume,
+  .section-footer {
+    max-width: 100%; /* Full width to utilize available screen space */
+    padding: 4rem; /* Adjust padding for smaller screens */
+  }
+
+  .button-hero a {
+    border-radius: 16px;
+    margin-bottom: 3rem;
+  }
+
+  .section-hero {
+    padding: 4rem; /* Reduce padding for hero section */
+  }
+
+  .section-about-me {
+    padding: 4rem; /* Adjust padding for about section */
+  }
+
+  .section-skills {
+    padding: 4rem; /* Adjust padding for skills section */
+  }
+
+  .section-projects {
+    padding: 6rem; /* Adjust padding for projects section */
+  }
+
+  .section-resume {
+    padding: 6rem; /* Adjust padding for resume section */
+  }
+
+  .section-footer {
+    padding: 2rem; /* Reduce padding for footer */
+  }
+
+  /* Font Sizes */
+  h1 {
+    font-size: 5.5rem; /* Scale down h1 font size */
+  }
+
+  h2 {
+    font-size: 3rem; /* Adjust h2 font size */
+  }
+
+  h3 {
+    font-size: 2.5rem; /* Adjust h3 font size */
+  }
+
+  .hero-text p {
+    font-size: 2rem; /* Scale down hero text size */
+  }
+
+  /* Image Sizes */
+  .resume-img-box img {
+    width: 100%; /* Adjust image width for resume section */
+  }
+}
+
+/**************************/
+/*BELOW 1200px(Landscape tablets)*/
+/**************************/
+@media (max-width: 75em) {
+  /* General Section Styles */
+  .section-hero,
+  .section-about-me,
+  .section-skills,
+  .section-projects,
+  .section-resume,
+  .section-footer {
+    max-width: 100%; /* Full width to utilize available screen space */
+    padding: 3rem; /* Adjust padding for smaller screens */
+  }
+
+  .section-hero {
+    padding: 3rem; /* Reduce padding for hero section */
+  }
+
+  .section-about-me {
+    padding: 3rem; /* Adjust padding for about section */
+  }
+
+  .section-skills {
+    padding: 3rem; /* Adjust padding for skills section */
+  }
+
+  .section-projects {
+    padding: 4rem; /* Adjust padding for projects section */
+  }
+
+  .section-resume {
+    padding: 4rem; /* Adjust padding for resume section */
+  }
+
+  .section-footer {
+    padding: 1.5rem; /* Reduce padding for footer */
+  }
+
+  .section-nav {
+    padding: 2.5rem 5.5rem;
+  }
+
+  .button-hero {
+    margin-top: 16rem;
+    padding: 2.5rem 3.5rem;
+  }
+
+  .button-hero a {
+    font-size: 2.8rem;
+  }
+
+  .page-links a {
+    font-size: 2.5rem;
+  }
+
+  /* Font Sizes */
+  h1 {
+    font-size: 5rem; /* Scale down h1 font size */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* Adjust h2 font size */
+  }
+
+  h3 {
+    font-size: 2rem; /* Adjust h3 font size */
+  }
+
+  .hero-text p {
+    font-size: 2.5rem; /* Scale down hero text size */
+  }
+
+  .about-me-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-projects p,
+  .section-skills p {
+    text-align: center;
+    padding: 3rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  /* Image Sizes */
+  .resume-img-box img {
+    width: 100%; /* Adjust image width for resume section */
+  }
+}
+
+/**************************/
+/*BELOW 944px(Tablets)*/
+/**************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%; /*8px*/
+  }
+  /* General Section Styles */
+  .section-hero,
+  .section-about-me,
+  .section-skills,
+  .section-projects,
+  .section-resume,
+  .section-footer {
+    max-width: 100%; /* Full width to utilize available screen space */
+    padding: 4rem; /* Adjust padding for smaller screens */
+  }
+
+  .button-hero {
+    padding: 1.5rem 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .section-skills h1 {
+    margin-bottom: 2rem;
+  }
+
+  .section-about-me,
+  .section-skills,
+  .section-resume {
+    padding: 4rem;
+  }
+
+  .about-me-text-box {
+    padding: 10rem;
+  }
+
+  .section-about-me h3 {
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-me-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-me-text-box {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .about-me-text-box h3 {
+    font-size: 3rem;
+  }
+
+  .about-me-img-box {
+    margin: 8rem 11.6rem;
+  }
+
+  .contact-img-box {
+    justify-content: center;
+    margin-top: -0.15rem;
+  }
+
+  .my-pic {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .experience-cards-container {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+
+  .experience-card {
+    padding: 2.5rem;
+  }
+
+  .experience-card h3 {
+    font-size: 2.4rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .experience-card ul {
+    font-size: 1.6rem;
+  }
+
+  .section-projects p,
+  .section-skills p {
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .projects-box {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    place-items: center;
+    position: relative;
+  }
+
+  .projects-description {
+    position: absolute;
+    left: 10%;
+    font-size: 2rem;
+  }
+
+  .project-card-1,
+  .project-card-2,
+  .project-card-3,
+  .project-card-4,
+  .project-card-5,
+  .project-card-6 {
+    width: 90%;
+    height: 400px;
+  }
+
+  .email-info {
+    margin-top: 8rem; /* Reduced margin-top */
+    gap: 1rem; /* Reduced gap */
+  }
+
+  .email-info p {
+    font-size: 1.8rem; /* Adjust font-size for smaller screens */
+  }
+
+  .email-button {
+    padding: 1rem 2rem; /* Adjust padding for smaller screens */
+    font-size: 1.6rem; /* Adjust font-size for smaller screens */
+    margin-top: 3rem; /* Reduced margin-top */
+  }
+
+  /* Image Sizes */
+  .resume-img-box img {
+    width: 100%;
+  }
+
+  .technologies-1,
+  .technologies-2,
+  .technologies-3,
+  .technologies-4,
+  .technologies-5,
+  .technologies-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    border-radius: 50%;
+    place-content: center;
+  }
+}
+
+/**************************/
+/*BELOW 704px(Smaller Tablets)*/
+/**************************/
+@media (max-width: 44em) {
+  .section-hero,
+  .section-about-me,
+  .section-skills,
+  .section-projects,
+  .section-resume,
+  .section-footer {
+    max-width: 100%; /* Full width to utilize available screen space */
+    padding: 3rem; /* Adjust padding for smaller screens */
+  }
+
+  .about-me-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    padding: 2rem;
+  }
+
+  .experience-card h3 {
+    font-size: 2.2rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .experience-card ul {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  }
+
+  .experience-card li {
+    margin-bottom: 1rem;
+  }
+
+  .technologies-1,
+  .technologies-2,
+  .technologies-3,
+  .technologies-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-links {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .page-links.mobile {
+    display: flex;
+  }
+
+  .project-card-1,
+  .project-card-2,
+  .project-card-3,
+  .project-card-4,
+  .project-card-5,
+  .project-card-6 {
+    background: #000428; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #004e92,
+      #000428
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #004e92,
+      #000428
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .projects-description {
+    color: #c2dbe1;
+    font-weight: 400;
+  }
+
+  .project-title {
+    text-align: center;
+  }
+
+  .tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .repo-link {
+    left: 40%;
+  }
+
+  .email-info {
+    margin-top: 8rem;
+    display: block;
+  }
+
+  .project-card-4 {
+    margin-bottom: 6rem;
+  }
+
+  .email-info p {
+    margin-top: -5rem;
+  }
+}
+
+/**************************/
+/*BELOW 544px(Phones)*/
+/**************************/
+@media (max-width: 34em) {
+  .page-links.mobile {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-hero,
+  .section-about-me,
+  .section-skills,
+  .section-projects,
+  .section-resume,
+  .section-footer {
+    max-width: 100%; /* Full width to utilize available screen space */
+    padding: 4rem; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .section-hero h1 {
+    margin-top: -4.5rem;
+  }
+
+  .section-hero p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2.2rem;
+    letter-spacing: -0.0002rem;
+  }
+
+  .button-hero {
+    margin-top: 22rem;
+    padding: 2rem 3rem;
+  }
+
+  .button-hero a {
+    font-size: 1.8rem;
+  }
+
+  .section-about-me h3 {
+    margin-bottom: 3rem;
+  }
+
+  .about-me-text-box p {
+    font-size: 1.8rem;
+    line-height: 1.9;
+  }
+
+  .about-me-img-box {
+    margin: 1.8rem 3.5rem;
+  }
+
+  .contact-img-box {
+    padding: 8rem;
+    padding-bottom: 4rem;
+  }
+
+  .section-skills {
+    padding: 4rem;
+  }
+
+  .skills-section h2 {
+    font-size: 4rem;
+  }
+
+  .skill {
+    font-size: 6.5rem;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-skills h2 {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+  }
+
+  .experience-cards-container {
+    gap: 2.5rem;
+  }
+
+  .experience-card {
+    padding: 1.8rem;
+  }
+
+  .experience-card h3 {
+    font-size: 2rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .experience-card ul {
+    font-size: 1.4rem;
+    padding-left: 1.8rem;
+  }
+
+  .experience-card li {
+    margin-bottom: 0.8rem;
+  }
+
+  .section-resume p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .download-button {
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+  }
+
+  .resume-img-box {
+    padding-top: 6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .resume-img-box img {
+    width: 100%; /* Adjust the percentage as needed */
+    max-width: 1500px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+
+  .section-footer {
+    padding: 2rem 2rem;
+  }
+
+  .section-footer p {
+    font-size: 1.25rem;
+  }
+}
