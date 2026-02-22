@@ -4,12 +4,38 @@ export default function Experience() {
   const experienceRef = useRef(null);
 
   return (
-    <section className="section-experience" id="experience">
+    <section className="section-experience" id="experience" ref={experienceRef}>
       <h1>
         My <span className="half-text">Experience</span>
       </h1>
 
       <div className="experience-cards-container">
+
+        {/* Tripfactory Internship (Current) */}
+        <div className="experience-card">
+          <h3>SDE Intern (Backend) — Tripfactory.com</h3>
+          <p className="experience-subtitle">
+            Noida &nbsp;|&nbsp; December 2026 – Present
+          </p>
+
+          <ul>
+            <li>
+              Debugging and analyzing the existing backend codebase for the 
+              <strong> Hotel Modality</strong> to understand business logic and system workflows.
+            </li>
+
+            <li>
+              Working with a legacy backend built using <strong>Java Servlets</strong>,
+              gaining hands-on exposure to servlet-based architecture,
+              request–response lifecycle, and controller–service design patterns.
+            </li>
+
+            <li>
+              Identifying issues in existing APIs, tracing logs, and fixing minor bugs
+              to improve stability and maintainability of production services.
+            </li>
+          </ul>
+        </div>
 
         {/* iKites.ai Internship */}
         <div className="experience-card">
@@ -19,7 +45,6 @@ export default function Experience() {
           </p>
 
           <ul>
-
             <li>
               Led the development of a <strong>multimodal ophthalmology analytics dashboard</strong>
               integrating OCT, RNFL, HVF, and longitudinal patient data to support disease progression analysis.
@@ -46,8 +71,14 @@ export default function Experience() {
             </li>
           </ul>
 
-          {/* Add links here when ready */}
-          <a href="https://drive.google.com/file/d/11mUPLgVhDdv2Sd-PqYW-p7FCUB2H-wdY/view?usp=drive_link" className="experience-link">Letter of Recommendation</a>
+          <a
+            href="https://drive.google.com/file/d/11mUPLgVhDdv2Sd-PqYW-p7FCUB2H-wdY/view?usp=drive_link"
+            className="experience-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Letter of Recommendation
+          </a>
         </div>
 
       </div>

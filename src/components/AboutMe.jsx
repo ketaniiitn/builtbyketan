@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import myPicture from "./../assets/image.png";
 import { FaCode, FaLaptopCode, FaBook, FaPaintBrush } from "react-icons/fa";
-import ResumePDF from "./../assets/KetanResume.pdf";
+import ResumePDF from "./../assets/KetanResume2026.pdf";
 
 export default function AboutMe() {
   const aboutMeRef = useRef(null);
