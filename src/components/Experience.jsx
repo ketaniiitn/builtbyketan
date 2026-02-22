@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="experience-card">
           <h3>SDE Intern (Backend) — Tripfactory.com</h3>
           <p className="experience-subtitle">
-            Noida &nbsp;|&nbsp; December 2026 – Present
+            Noida &nbsp;|&nbsp; December 2025 – Present
           </p>
 
           <ul>
